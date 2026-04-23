@@ -7,7 +7,7 @@ class CortexAuth < Formula
   on_macos do
     on_arm do
       url "https://github.com/davideuler/cortex-auth/releases/download/v#{version}/cortex-auth-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER_AARCH64_APPLE_DARWIN_SHA256"
+      sha256 "1f2a0986f52a621a9df364e5b15e08a2c0a8c583ecfda29606bbd30ed741008f"
     end
     on_intel do
       raise "Pre-built binaries are only available for Apple Silicon (arm64). " \
